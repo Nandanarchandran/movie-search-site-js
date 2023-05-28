@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:bisque;
+}
+
+header {
+  background-color: #242582 ;
+  padding: 20px;
+  color: #F64C72;
+  font-family: "Ink Free", Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+  
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.search-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#search-input {
+  flex: 1;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#search-button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #F64C72;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#movie-details {
+  display: none;
+}
+
+#movie-details h2 {
+  margin-top: 0;
+}
