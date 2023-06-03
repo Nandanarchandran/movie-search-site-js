@@ -8,7 +8,7 @@ function searchMovie() {
   const searchTerm = searchInput.value;
 
   // Replace 'YOUR_API_KEY' with your actual OMDB API key
-  const apiURL = `http://www.omdbapi.com/?apikey=5a3bd832&t=${searchTerm}`;
+ const apiURL = `https://www.omdbapi.com/?apikey=5a3bd832&t=${searchTerm}`;
 
   fetch(apiURL)
     .then(response => response.json())
